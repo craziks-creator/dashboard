@@ -1,18 +1,14 @@
 <html>
 	<head>
-<title>Chart JS Multiple Lines Example</title>
-<link rel='stylesheet' href='style.css' type='text/css' />
+<title>Chart JS Multiple Lines Example</title>		
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+
 </head>
 <body>
-    <div class="phppot-container">
         <h1>Chart JS Multiple Lines Example</h1>
-        <div>
+        
             <canvas id="line-chart"></canvas>
-        </div>
-    </div>
-	<script
-src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
-<script>
+        <script>
 	new Chart(document.getElementById("line-chart"), {
 		type : 'line',
 		data : {
